@@ -1,0 +1,564 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+body {
+    font-family: 'Varela Round';
+    /*padding-top: 54px;*/
+    color: #868e96;
+    direction: rtl;
+
+}
+
+section #page1 {
+
+}
+
+
+
+.circle {
+    margin-right: 10%;
+    margin-top: 15%;
+    background-color: #d3d3d3;
+    border-radius: 50%;
+    max-width: 250px;
+    width: 60%;
+    max-height: 250px;
+    height: 100%;
+    direction: ltr;
+}
+#businesswoman {
+    max-width: 250px;
+    max-height: 250px;
+    width: 100%;
+}
+
+#Page1 .circle {
+    width: 40%;
+}
+
+#odot {
+    z-index: 1000;
+    display: inline-block;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+#Page3 .resume-content {
+    max-width: 100%;
+}
+
+#Page3 .resume-content img {
+    float: left;
+    display: none;
+}
+
+#Page3 .circle {
+    width: 40%;
+}
+
+#circlePage3 {
+    background-color: #d3d3d3;
+    border-radius: 50%;
+    max-width: 250px;
+    width: 60%;
+    max-height: 250px;
+    height: 100%;
+    display: inline-block;
+}
+
+#womanIdea {
+    max-width: 250px;
+    max-height: 250px;
+    width: 100%;
+}
+#divDisplay{
+    display:inline-block;
+} 
+.resume-item d-flex flex-column flex-md-row mb-5 p {
+    display: inline-block;
+    width: 70%;
+    text-align: left;
+}
+
+#Page1 .my-auto img {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    body {
+    padding-top: 0;
+    padding-right: 17rem;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Varela Round';
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #343a40;
+    font-family: 'Varela Round';
+    text-align: right;
+}
+
+h1 {
+  font-size: 5rem;
+  line-height: 5rem;
+  
+}
+
+h2 {
+    font-size: 3.5rem;
+    color: #9F526E;
+}
+p{
+    text-align:right;
+    max-width:600px;
+}
+.mb-5{
+        padding-top: 7%;
+
+}
+
+.subheading {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Varela Round';
+    font-size: 1.35rem;
+}
+
+.list-social-icons a {
+  color: #495057;
+}
+
+.list-social-icons a:hover {
+  color: #BD5D38;
+}
+
+.list-social-icons a .fa-lg {
+  font-size: 1.75rem;
+}
+
+.list-icons {
+  font-size: 3rem;
+}
+
+.list-icons .list-inline-item i:hover {
+  color: #BD5D38;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 17rem;
+    height: 100vh;
+  }
+  #sideNav .navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+  #sideNav .navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  }
+  #sideNav .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  #sideNav .navbar-collapse .navbar-nav {
+    width: 100%;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+    margin-left:20%;
+  }
+}
+
+section.resume-section {
+  border-bottom: 1px solid #dee2e6;
+
+}
+
+section.resume-section .resume-item .resume-date {
+  min-width: none;
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+  }
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+.bg-primary {
+    background-color: #892A4C !important;
+}
+
+.text-primary {
+    color: #9F526E !important;
+}
+
+a {
+  color: #BD5D38;
+}
+
+
+a:hover, a:focus, a:active {
+  color: #824027;
+}
+
+
+
+#forms{
+    width:90%;
+    height:90%;
+        text-align: center;
+        padding-top: 100px;
+        background-color:#fff;
+}
+
+
+/*.facebookBtn:before{ /* use :before to add the relevant icons */
+    /*font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+/*}*/
+
+/*.facebookBtn:hover{
+    color: #4060A5;
+    background: #fff;
+    text-decoration:none;
+    border-color: #4060A5;*/ /* change the border color on mouse hover */
+/*}*/
+/*.smGlobalBtn {*/  /*global button class 
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #4267b2;
+    box-shadow: 0 3px 3px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #4267b2;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 27px;
+    -moz-border-radius: 27px;
+    -webkit-border-radius: 27px;
+    background-color: #ffffff;
+}
+
+
+
+.fb_iframe_widget {
+    display: block;
+    position: relative;
+    direction: rtl;
+    margin: auto;
+}*/
+
+strong{
+    color:#9F526E;
+}
+#purple{
+    color:#9F526E;
+}
+#ilana2{
+    width: 190px;
+    height: 300px;
+    float: right;
+    MARGIN-LEFT: 25px;
+}
+#fb{
+    float:right;
+    height: 75px;
+    width: 250px;
+}
+#fb:hover{
+    float:right;
+    height: 75px;
+    width: 250px;
+    opacity:0.8;
+    cursor:pointer;
+}
+#like iframe {
+    float: right;
+    width: 181px;
+    padding-top: 25px;
+}
+
+.circelDir{
+    text-align:right;
+}
+
+.circelsAdviser {
+    width: 70px;
+    height: 70px;
+    background-color: lightgray;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#milim {
+    width: 100%;
+    max-width: 80px;
+    height: 60px;
+    display: block;
+}
+#mudaut {
+    width: 100%;
+    max-width: 80px;
+    height: 70px;
+    display: block;
+}
+
+#dfus {
+    width: 100%;
+    max-width: 90px;
+    height: 70px;
+    display: block;
+}
+
+p .objection {
+    display: block;
+}
+
+#line-images {
+    display: block;
+    width: 100%;
+    text-align: right;
+    margin: 3% 0;
+}
+
+.line {
+    display: inline-block;
+    width: 20%;
+    margin-left: 10%;
+}
+
+#change {
+    width: 50px;
+    height: 50px;
+}
+#diary{
+width: 70px;
+    height: 70px;
+}
+
+#focus{
+width: 70px;
+    height: 70px;
+}
+
+#meditation{
+width: 70px;
+    height: 70px;
+}
+
+#pRETURN {
+    max-width: 620px;
+}
+
+
+#talking {
+    width: 70px;
+    height: 70px;
+    /*display: inline;*/
+}
+
+#galileo {
+    width: 350px;
+    margin: 0 auto;
+    display: block;
+}
+.pAdviser{
+    display:inline-block;
+}
+.fb-comments{
+    margin:auto;
+    padding-bottom: 325px;
+}
+
+#forms {
+    width: 100%;
+    height: 90%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.modal {
+    display: none;
+    position: fixed;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    border-radius: 15px;
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+}
+
+.modal-content p {
+    max-height: none;
+}
+    /* The Close Button */
+    .close {
+        color: #aaaaaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+#title_img {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+#odotTitle {
+    display: inline-block;
+    width: 42%;
+    font-size: 30px;
+}
+
+#bussinesWoman_odot {
+    max-width: 120px;
+    display: inline-block;
+    width: 30%;
+}
+
+.modal-content p {
+    text-align: center;
+}
+
+#HitLogo {
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+#hr-box {
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+@media (max-width: 992px) {
+    html {
+        display: block;
+        position: relative;
+        width: 100%;
+    }
+    #odot {
+        top: unset;
+    }
+
+    #odotTitle {
+        width: 55%;
+    }
+    
+    .circle {
+        margin-top: 45%;
+    }
+    #Page3 .resume-content img {
+        float: left;
+        display: inline-block;
+    }
+    #Page4 iframe {
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    #Page4 .fb-comments {
+        margin: 0;
+        padding: 0;
+    }
+    
+    #Page6 iframe {
+        width: 100%;
+    }
+
+    .pAdviser {
+        text-align: center;
+        padding-top: 15px;
+    }
+    #Page1 .my-auto img {
+        display: inline-block;
+        float: left;
+        max-width: 150px;
+    }
+
+    #womanIdea {
+        max-width: 150px;
+    }
+
+    #odotTitle {
+        font-size: 20px;
+    }
+    #bussinesWoman_odot {
+        max-width: 70px;
+    }
+    .modal-content {
+        width: 90%;
+    }
+}
+@media (max-width: 767px) {
+    .circelDir {
+        text-align: center;
+    }
+}
